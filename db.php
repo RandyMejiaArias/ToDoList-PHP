@@ -5,8 +5,4 @@ $link = mysqli_connect(
     '',
     'todolist_php'
 );
-
-if(isset($link)){
-    echo 'Db is connected';
-}
 ?>
