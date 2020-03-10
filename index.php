@@ -13,11 +13,9 @@
                         <input type="text" name="title" class="form-control" placeholder="Task title" autofocus>
                     </div>
                     <div class="form-group">
-                        <textarea name="Description" rows="3" class="form-control" placeholder="Task description"></textarea>
+                        <textarea name="description" rows="3" class="form-control" placeholder="Task description"></textarea>
                     </div>
-                    <div class="form-group">
-                        <input type="submit" value="Save" class="btn btn-success btn-block" name="save_task">
-                    </div>
+                    <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save">
                 </form>
             </div>
         </div>
